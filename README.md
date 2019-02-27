@@ -10,11 +10,11 @@
 ----------
 
 ### 安装/使用:
-	#### 引入
-	`import Code from 'js/code'`
-	#### 渲染时调用parse方法
-	`Code.parse(this.$refs.content)`
-	传入为 元素，传入后会自动解析 下方包含 `<code>` 内部的代码
+#### 引入
+`import Code from 'js/code'`
+#### 渲染时调用parse方法
+`Code.parse(this.$refs.content)`
+传入为 元素，传入后会自动解析 下方包含 `<code>` 内部的代码
 ### 解析条件: 
 Code 开头第一行加上 `// javascript code-model`
 `javascript` 可更换为 `css` `html` 分别代表三种解析模式
